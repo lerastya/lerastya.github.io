@@ -3,21 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Привет</title>
+    <title>Привет</title> 
     <style>
         body{
-            color:rgb(207, 208, 255);
-            background-image: url(orig.jpg);
+            color:#f0f0ff;
+            background-image: url(orig.jpg); 
+            background-size: cover ; 
         }
+        .logo{
+                width: 100px;
+                box-shadow: 5px 10px 15px black;
+            }
+            .logo:hover{
+                width: 200px;
+            }
+            .logo2{
+                width: 800px;
+                box-shadow: 5px 10px 15px black;
+            }
+            .header{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 70px ;
+                color: darkred;
+                text-shadow: 5px 10px 7px black;
+            }
+            .header:hover{
+                color: blue;
+            }
     </style>
 </head>
 <body>
-    <h1>Операционные системы</h1>
+    <h1 class="header">Операционные системы</h1>
+    <h2>Десктопные OC</h2>
+    <p>Microsoft Windows 10</p><img class="logo" src="microsoft.png"> 
+    <p>macOS</p>
+    <p>Linux</p><img class="logo" src="linux.png"> 
+    <h2>Мобильные ОС</h2>
+    <p>Google Android</p><img class="logo" src="google.jpg">
+    <p>Apple IOS</p> <img class="logo" src="i.webp">
+    <p>KaiOS</p>
+    <p>Huawei HarmonyOS</p> <img class="logo" src="huawei.jpg" alt="">
+    <h2>Сервисные ОС</h2>
+    <p>Windows Server</p>
+    <p>Ubuntu server</p>
+    <p>CentOS</p>
+    <p>Red Hat Enterprise Linux</p>
     <p> 
      Кошка — домашнее животное, одно из наиболее популярных (наряду с собаками) «животных-компаньонов» или домашних животных. Кошки — млекопитающие и плотоядные животные.
     </p>
-    <img src="https://images.wallpaperscraft.com/image/single/cat_face_eyes_29447_1280x720.jpg" alt="">
-    <h2>Windows 10</h2>
-    <h3>Android</h3>
+    <img class="logo2" src="kot.jpg" alt="">
 </body>
 </html>
