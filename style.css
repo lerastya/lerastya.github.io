@@ -6,6 +6,7 @@ body{
 .logo{
         width: 100px;
         box-shadow: 5px 10px 15px black;
+        border-radius: 10px;
     }
     .logo:hover{
         width: 200px;
@@ -26,22 +27,33 @@ body{
 
     .desk_os{ 
         border: 5px solid rgb(97, 6, 178);
-        border-radius: 40px;
+        border-radius: 30px;
         background-color: rgb(186, 134, 235);
         box-shadow: 5px 15px 25px rgb(36, 2, 68);
         width: 30%;
     }
     .mob_os{ 
         border: 5px solid rgb(178, 6, 115);
-        border-radius: 40px;
+        border-radius: 30px;
         background-color: rgb(235, 134, 201);
         box-shadow: 5px 15px 25px rgb(68, 2, 45);
         width: 30%;
     }
     .serv_os{ 
         border: 5px solid rgb(6, 35, 178);
-        border-radius: 40px;
+        border-radius: 30px;
         background-color: rgb(134, 181, 235);
         box-shadow: 5px 15px 25px rgb(2, 25, 68);
         width: 30%;
+    }
+    .general{
+        width: 50%;
+        background-image: linear-gradient(#fffbb9,#ff8648,#be38f3);
+        border-radius: 20px;
+        color: rgb(82, 9, 9);
+    }
+    .btn_os{
+        width: 100px;
+        background-color: rgb(235, 226, 107);
+        text-decoration: none;
     }
